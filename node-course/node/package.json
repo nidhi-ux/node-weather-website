@@ -4,7 +4,7 @@
   "main": "1-json.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node public/js/app.js"
+    "start":"node js/app.js"
   },
   "keywords": [],
   "author": "",

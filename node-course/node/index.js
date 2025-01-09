@@ -20,7 +20,7 @@
 //   })
 
 
-const path = require('path')
+const path = require('path') 
 const express=require('express')
 const { title } = require('process')
 const hbs =require('hbs')
@@ -43,6 +43,7 @@ hbs.registerPartials(partialpath)
 app.use(express.static(publicdirectory))
 
 const port= process.env.PORT || 3000
+console.log(port)
 app.get('',(req,res)=>{
     res.render('index',{
         title:'weather',

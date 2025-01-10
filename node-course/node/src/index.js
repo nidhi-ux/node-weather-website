@@ -24,8 +24,8 @@ const path = require('path')
 const express=require('express')
 const { title } = require('process')
 const hbs =require('hbs')
-const forecast=require('../../forecast')
-const geocode=require('../../geocode')
+const forecast=require('../forecast')
+const geocode=require('../geocode')
 
 const app=express()
 
